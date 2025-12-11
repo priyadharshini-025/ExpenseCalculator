@@ -41,7 +41,6 @@ h3 {
 #dropdown {
     border-radius: 5px;
     padding: 5px 20px;
-    width: 30%;
     border: 1px solid rgb(81, 17, 59);
 }
 
@@ -91,6 +90,7 @@ li {
 
 .button2{
     align-items: center;
+    /* gap:10px; */
 }
 
 .button2Edit {
