@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Tells the browser to set the page width same as device width-->
+    <meta name="viewport" content="width:device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h3>Expense Calculator</h3>
+        <p>Total Income : <span id="income">0</span></p>
+        <p>Total Expense : <span id="expense">0</span></p>
+        <p>Net Balance : <span id="balance">0</span></p>
+        <div class="inputBoxes">
+            <input id="description" type="text" placeholder="Enter the description">
+            <input id="amount" type="number" placeholder="Enter the amount">
+            <select id="dropdown">
+                <option>Income</option>
+                <option>Expense</option>
+            </select>
+        </div>
+
+        <div class="buttons1">
+            <button id="addBtn">ADD</button>
+            <button id="ResetBtn">RESET</button>
+        </div>
+        <!--Add filters [ “all”, “income”, “expense” ]-->
+        <div class="filters">
+            <input type="radio" id="filterAll" name="filter" checked>All
+            <input type="radio" id="filterIncome" name="filter">Income
+            <input type="radio" id="filterExpenses" name="filter">Expense
+        </div>
+        <ul id="taskList">
+
+        </ul>
+        <script src="./script.js"></script>
+    </section>
+</body>
+
+</html>
