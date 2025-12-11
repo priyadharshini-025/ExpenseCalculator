@@ -1,2 +1,2 @@
 # ExpenseCalculator
-Provides an overview of their financial status.
+Provides an overview of the financial status.
